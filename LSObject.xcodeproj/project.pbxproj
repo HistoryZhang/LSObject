@@ -7,12 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		039F0C151923AE36008ACA53 /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = 039F0C0F1923AE36008ACA53 /* Persion.m */; };
+		039F0C161923AE36008ACA53 /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 039F0C111923AE36008ACA53 /* Student.m */; };
+		039F0C171923AE36008ACA53 /* LSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 039F0C141923AE36008ACA53 /* LSObject.m */; };
 		03ADF95F192377CC00665C9B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 03ADF95E192377CC00665C9B /* Foundation.framework */; };
 		03ADF962192377CC00665C9B /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF961192377CC00665C9B /* main.m */; };
 		03ADF966192377CC00665C9B /* LSObject.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = 03ADF965192377CC00665C9B /* LSObject.1 */; };
-		03ADF972192377E000665C9B /* LSObject.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF96D192377E000665C9B /* LSObject.m */; };
-		03ADF973192377E000665C9B /* Persion.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF96F192377E000665C9B /* Persion.m */; };
-		03ADF974192377E000665C9B /* Student.m in Sources */ = {isa = PBXBuildFile; fileRef = 03ADF971192377E000665C9B /* Student.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -29,17 +29,17 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		039F0C0E1923AE36008ACA53 /* Persion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
+		039F0C0F1923AE36008ACA53 /* Persion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
+		039F0C101923AE36008ACA53 /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
+		039F0C111923AE36008ACA53 /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
+		039F0C131923AE36008ACA53 /* LSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSObject.h; sourceTree = "<group>"; };
+		039F0C141923AE36008ACA53 /* LSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSObject.m; sourceTree = "<group>"; };
 		03ADF95B192377CC00665C9B /* LSObject */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = LSObject; sourceTree = BUILT_PRODUCTS_DIR; };
 		03ADF95E192377CC00665C9B /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		03ADF961192377CC00665C9B /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		03ADF964192377CC00665C9B /* LSObject-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "LSObject-Prefix.pch"; sourceTree = "<group>"; };
 		03ADF965192377CC00665C9B /* LSObject.1 */ = {isa = PBXFileReference; lastKnownFileType = text.man; path = LSObject.1; sourceTree = "<group>"; };
-		03ADF96C192377E000665C9B /* LSObject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LSObject.h; sourceTree = "<group>"; };
-		03ADF96D192377E000665C9B /* LSObject.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LSObject.m; sourceTree = "<group>"; };
-		03ADF96E192377E000665C9B /* Persion.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Persion.h; sourceTree = "<group>"; };
-		03ADF96F192377E000665C9B /* Persion.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Persion.m; sourceTree = "<group>"; };
-		03ADF970192377E000665C9B /* Student.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Student.h; sourceTree = "<group>"; };
-		03ADF971192377E000665C9B /* Student.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Student.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +54,26 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		039F0C0D1923AE36008ACA53 /* Demo */ = {
+			isa = PBXGroup;
+			children = (
+				039F0C0E1923AE36008ACA53 /* Persion.h */,
+				039F0C0F1923AE36008ACA53 /* Persion.m */,
+				039F0C101923AE36008ACA53 /* Student.h */,
+				039F0C111923AE36008ACA53 /* Student.m */,
+			);
+			path = Demo;
+			sourceTree = "<group>";
+		};
+		039F0C121923AE36008ACA53 /* LSObject */ = {
+			isa = PBXGroup;
+			children = (
+				039F0C131923AE36008ACA53 /* LSObject.h */,
+				039F0C141923AE36008ACA53 /* LSObject.m */,
+			);
+			path = LSObject;
+			sourceTree = "<group>";
+		};
 		03ADF952192377CC00665C9B = {
 			isa = PBXGroup;
 			children = (
@@ -82,12 +102,8 @@
 		03ADF960192377CC00665C9B /* LSObject */ = {
 			isa = PBXGroup;
 			children = (
-				03ADF96C192377E000665C9B /* LSObject.h */,
-				03ADF96D192377E000665C9B /* LSObject.m */,
-				03ADF96E192377E000665C9B /* Persion.h */,
-				03ADF96F192377E000665C9B /* Persion.m */,
-				03ADF970192377E000665C9B /* Student.h */,
-				03ADF971192377E000665C9B /* Student.m */,
+				039F0C0D1923AE36008ACA53 /* Demo */,
+				039F0C121923AE36008ACA53 /* LSObject */,
 				03ADF961192377CC00665C9B /* main.m */,
 				03ADF965192377CC00665C9B /* LSObject.1 */,
 				03ADF963192377CC00665C9B /* Supporting Files */,
@@ -154,10 +170,10 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				03ADF973192377E000665C9B /* Persion.m in Sources */,
+				039F0C171923AE36008ACA53 /* LSObject.m in Sources */,
+				039F0C151923AE36008ACA53 /* Persion.m in Sources */,
 				03ADF962192377CC00665C9B /* main.m in Sources */,
-				03ADF972192377E000665C9B /* LSObject.m in Sources */,
-				03ADF974192377E000665C9B /* Student.m in Sources */,
+				039F0C161923AE36008ACA53 /* Student.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -271,6 +287,7 @@
 				03ADF96B192377CC00665C9B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
