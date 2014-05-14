@@ -97,7 +97,7 @@ _Pragma("clang diagnostic pop") \
 
 + (instancetype)objectWithDictionary:(NSDictionary *)dictionary
 {
-    LSObject *object = [[LSObject alloc] initWithDictionary:dictionary];
+    id object = [[self alloc] initWithDictionary:dictionary];
     return object;
 }
 
