@@ -121,7 +121,12 @@ _Pragma("clang diagnostic pop") \
                 id obj = [[objClass alloc] initWithDictionary:dictionary];
                 [objAry addObject:obj];
             }
-            [super setValue:[[propertyTypeClass alloc] initWithArray:objAry] forKey:key];
+            if (objAry.count == 0) {
+                [super setValue:nil forKey:key];
+            }
+            else {
+                [super setValue:[[propertyTypeClass alloc] initWithArray:objAry] forKey:key];
+            }
         }
         else {
             [super setValue:value forKey:key];
