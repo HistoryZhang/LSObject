@@ -32,7 +32,7 @@ You can use it as follow:
 
    Then you should have an CLASS function for key studentAry if the objects in the NSArray is custom object like Student.
 
-   The function name should be + (Class)ls_property_keyname_class;Replace the keyname with your key(studentAry in this example).
+   The function name should be <code> + (Class)ls_property_keyname_class; </code>Replace the keyname with your key(studentAry in this example).
 
    You should NOT give an CLASS function for key student.We know its Class.
 
