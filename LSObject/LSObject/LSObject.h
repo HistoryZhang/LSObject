@@ -9,6 +9,13 @@
 #import <Foundation/Foundation.h>
 
 @interface LSObject : NSObject
+/**
+ *  Create an Object With a NSDictionary
+ *
+ *  @param dictionary Source Dictionary
+ *
+ *  @return an Object
+ */
 + (instancetype)objectWithDictionary:(NSDictionary *)dictionary;
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary;
 @end

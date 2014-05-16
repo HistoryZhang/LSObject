@@ -17,6 +17,9 @@ Stuff; \
 _Pragma("clang diagnostic pop") \
 } while (0)
 
+/**
+ *  RuntimeHelper Class
+ */
 @interface LSRuntimeHelper : NSObject
 + (NSDictionary *)propertyWithClass:(Class)aClass;
 + (NSArray *)propertyNamesWithClass:(Class)aClass;
@@ -65,6 +68,7 @@ _Pragma("clang diagnostic pop") \
 @end
 @implementation LSObject
 
+#pragma mark - NSCoding
 - (void)encodeWithCoder:(NSCoder*)encoder
 {
 	for (NSString *key in [LSRuntimeHelper propertyNamesWithClass:[self class]]) {
@@ -85,6 +89,8 @@ _Pragma("clang diagnostic pop") \
 	return self;
 }
 
+#pragma mark - Initialize
+
 - (instancetype)initWithDictionary:(NSDictionary *)dictionary
 {
     self = [super init];
@@ -100,6 +106,8 @@ _Pragma("clang diagnostic pop") \
     id object = [[self alloc] initWithDictionary:dictionary];
     return object;
 }
+
+#pragma mark -
 
 - (void)setValue:(id)value forKey:(NSString *)key
 {

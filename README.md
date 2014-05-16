@@ -69,3 +69,10 @@ You can use it as follow:
     Persion *persion = [[Persion alloc] initWithDictionary:dictionary];
     
     Persion *persion2 = [Persion objectWithDictionary:dictionary];
+
+TODO
+========
+NSNull 
+BOOL
+READONLY
+More and More...
