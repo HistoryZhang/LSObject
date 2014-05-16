@@ -5,34 +5,34 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
-	<string>0977E5E4-3CB2-4517-8FF0-B9DA613043E3</string>
+	<string>1ED34F8C-B61F-4ED5-B3D4-88D86609292C</string>
 	<key>IDESourceControlProjectName</key>
 	<string>LSObject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
-		<key>9424DE25-7CF2-4E07-92AC-989BF876AF0A</key>
-		<string>https://bitbucket.org/zq282502532/LSDictionaryObject.git</string>
+		<key>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</key>
+		<string>https://github.com/HistoryZhang/LSObject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LSObject.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
-		<key>9424DE25-7CF2-4E07-92AC-989BF876AF0A</key>
+		<key>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</key>
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
-	<string>https://bitbucket.org/zq282502532/LSDictionaryObject.git</string>
+	<string>https://github.com/HistoryZhang/LSObject.git</string>
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
-	<string>9424DE25-7CF2-4E07-92AC-989BF876AF0A</string>
+	<string>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</string>
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
-			<string>9424DE25-7CF2-4E07-92AC-989BF876AF0A</string>
+			<string>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</string>
 			<key>IDESourceControlWCCName</key>
 			<string>LSObject</string>
 		</dict>
