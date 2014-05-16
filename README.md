@@ -10,7 +10,9 @@ This project uses KVO.You can see more about KVO from www.google.com
 You can use it as follow:
 
 1.Create a subclass of LSObject.
+
 2.If the class DO NOT have custom Class(only NSString, NSNumber), you use it just like this.
+
 	@interface Student : LSObject
 	@property (nonatomic, copy) NSString *hello;
 	@property (nonatomic, copy) NSString *world;
@@ -20,21 +22,27 @@ You can use it as follow:
 
 	@end
   if NOT.Like this:
+
  	@interface Persion : LSObject
 	@property (nonatomic, copy) NSString *name;
 	@property (nonatomic, copy) NSString *sex;
 	@property (nonatomic, retain) NSArray *studentAry;
 	@property (nonatomic, retain) Student *student;
 	@end
+
    Then you should have an CLASS function for key studentAry if the objects in the NSArray is custom object like Student.
+
    The function name should be + (Class)ls_property_keyname_class;Replace the keyname with your key(studentAry in this example).
+
    You should NOT give an CLASS function for key student.We know its Class.
+
 	@implementation Persion
 	+ (Class)ls_property_studentAry_class
 	{
 	    return [Student class];
 	}
 	@end
+	
 3.If you have an Undifined Key or a key name is id.You can set it as follow: 
 
 	- (void)setValue:(id)value forUndefinedKey:(NSString *)key
