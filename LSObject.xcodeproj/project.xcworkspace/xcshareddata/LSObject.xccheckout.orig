@@ -5,19 +5,31 @@
 	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
 	<false/>
 	<key>IDESourceControlProjectIdentifier</key>
+<<<<<<< HEAD
+	<string>1ED34F8C-B61F-4ED5-B3D4-88D86609292C</string>
+=======
 	<string>65E07ECD-D2A4-4E05-AF7D-2BC373D2473E</string>
+>>>>>>> origin/master
 	<key>IDESourceControlProjectName</key>
 	<string>LSObject</string>
 	<key>IDESourceControlProjectOriginsDictionary</key>
 	<dict>
+<<<<<<< HEAD
+		<key>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</key>
+=======
 		<key>A4A49B4A-0BD6-4420-8CEB-3A3500613EFF</key>
+>>>>>>> origin/master
 		<string>https://github.com/HistoryZhang/LSObject.git</string>
 	</dict>
 	<key>IDESourceControlProjectPath</key>
 	<string>LSObject.xcodeproj/project.xcworkspace</string>
 	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
 	<dict>
+<<<<<<< HEAD
+		<key>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</key>
+=======
 		<key>A4A49B4A-0BD6-4420-8CEB-3A3500613EFF</key>
+>>>>>>> origin/master
 		<string>../..</string>
 	</dict>
 	<key>IDESourceControlProjectURL</key>
@@ -25,14 +37,22 @@
 	<key>IDESourceControlProjectVersion</key>
 	<integer>110</integer>
 	<key>IDESourceControlProjectWCCIdentifier</key>
+<<<<<<< HEAD
+	<string>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</string>
+=======
 	<string>A4A49B4A-0BD6-4420-8CEB-3A3500613EFF</string>
+>>>>>>> origin/master
 	<key>IDESourceControlProjectWCConfigurations</key>
 	<array>
 		<dict>
 			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
 			<string>public.vcs.git</string>
 			<key>IDESourceControlWCCIdentifierKey</key>
+<<<<<<< HEAD
+			<string>B2E81ED4-05E6-4EA4-8C81-6E8FE4823C6E</string>
+=======
 			<string>A4A49B4A-0BD6-4420-8CEB-3A3500613EFF</string>
+>>>>>>> origin/master
 			<key>IDESourceControlWCCName</key>
 			<string>LSObject</string>
 		</dict>

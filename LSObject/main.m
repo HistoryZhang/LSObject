@@ -30,6 +30,7 @@ int main(int argc, const char * argv[])
         
         
         NSLog(@"%@", persion.studentAry[1]);
+        NSLog(@"%@", persion2.sex);
     }
     return 0;
 }
