@@ -39,9 +39,15 @@ _Pragma("clang diagnostic pop") \
         
         NSError *error = NULL;
         NSRegularExpression *regex = [NSRegularExpression regularExpressionWithPattern:@"@\"\\w+\"" options:NSRegularExpressionCaseInsensitive error:&error];
-        NSTextCheckingResult *result = [regex firstMatchInString:attributes options:0 range:NSMakeRange(0, attributes.length)];
-        NSString *type = [attributes substringWithRange:NSMakeRange(result.range.location + 2, result.range.length - 3)];
-        [propertyDictionary setObject:type forKey:name];
+        if (error) {
+            properties = nil;
+            break;
+        }
+        else {
+            NSTextCheckingResult *result = [regex firstMatchInString:attributes options:0 range:NSMakeRange(0, attributes.length)];
+            NSString *type = [attributes substringWithRange:NSMakeRange(result.range.location + 2, result.range.length - 3)];
+            [propertyDictionary setObject:type forKey:name];
+        }
     }
     free(properties);
     return propertyDictionary;
@@ -64,7 +70,6 @@ _Pragma("clang diagnostic pop") \
 @end
 
 @interface LSObject () <NSCoding>
-@property (nonatomic, strong) NSDictionary *property;
 @end
 @implementation LSObject
 
@@ -95,7 +100,6 @@ _Pragma("clang diagnostic pop") \
 {
     self = [super init];
     if (self) {
-        _property = [LSRuntimeHelper propertyWithClass:[self class]];
         [self setValuesForKeysWithDictionary:dictionary];
     }
     return self;
@@ -111,7 +115,7 @@ _Pragma("clang diagnostic pop") \
 
 - (void)setValue:(id)value forKey:(NSString *)key
 {
-    NSString *propertyTypeString = [_property valueForKey:key];
+    NSString *propertyTypeString = [[LSRuntimeHelper propertyWithClass:[self class]] valueForKey:key];
     Class propertyTypeClass = NSClassFromString(propertyTypeString);
     if ([propertyTypeClass isSubclassOfClass:[NSDictionary class]]) {
         [super setValue:value forKey:key];
